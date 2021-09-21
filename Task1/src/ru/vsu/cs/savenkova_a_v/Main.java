@@ -3,7 +3,7 @@ package ru.vsu.cs.savenkova_a_v;
 import java.util.Locale;
 import java.util.Scanner;
 
-//2. 2.	Известны длины сторон a, b, c треугольника.
+//2. Известны длины сторон a, b, c треугольника.
 //Вычислить высоты этого треугольника.
 
 public class Main {
