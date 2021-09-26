@@ -12,15 +12,15 @@ public class Main {
         return (a + b + c) / 2;
     }
     //Методы для нахождения высот треугольника
-    public static double heighta (double a, double b, double c, double P) {
+    private static double heighta (double a, double b, double c, double P) {
         return (2 / a) * (Math.sqrt(P * (P - a) * (P - b) * (P - c)));
     }
 
-    public static double heightb (double a, double b, double c, double P) {
+    private static double heightb (double a, double b, double c, double P) {
         return (2 / b) * (Math.sqrt(P * (P - a) * (P - b) * (P - c)));
     }
 
-    public static double heightc (double a, double b, double c, double P) {
+    private static double heightc (double a, double b, double c, double P) {
         return (2 / c) * (Math.sqrt(P * (P - a) * (P - b) * (P - c)));
     }
 
